@@ -1,0 +1,71 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===============================
+# Virtual environments
+# ===============================
+.venv/
+venv/
+env/
+ENV/
+
+# Conda environments (project-local)
+.conda/
+
+# ===============================
+# Build / packaging artifacts
+# ===============================
+build/
+dist/
+*.spec
+
+# PyInstaller temp
+*.manifest
+*.exe.log
+
+# Nuitka
+nuitka-crash-report.xml
+*.build/
+*.dist/
+
+# ===============================
+# Data / output (optional)
+# ===============================
+# Uncomment if these are runtime-generated, not source data
+# *.csv
+# *.xlsx
+
+# ===============================
+# IDE / Editor
+# ===============================
+.idea/
+.cursor/
+.vscode/
+
+# ===============================
+# OS / System
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===============================
+# Logs / temp
+# ===============================
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# ===============================
+# User / local overrides
+# ===============================
+.env
+.env.*
+
+AGENTS.md
